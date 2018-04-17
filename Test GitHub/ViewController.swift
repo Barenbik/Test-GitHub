@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // Add a comment to test the branching.
     }
 
     override func didReceiveMemoryWarning() {
