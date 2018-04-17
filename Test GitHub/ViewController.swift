@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ClickMeResultLabel: UILabel!
+    @IBAction func ClickMeButton(_ sender: Any) {
+        ClickMeResultLabel.text = "You clicked me!!"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Add a comment to test the branching.
